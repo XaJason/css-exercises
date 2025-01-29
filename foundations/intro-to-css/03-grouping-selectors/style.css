@@ -1,0 +1,22 @@
+.good,
+.evil {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+    transition: transform 0.5s;
+}
+
+.good:hover,
+.evil:hover {
+    transform: translateY(10px);
+    transform: perspective(100px) rotateX(10deg);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.good {
+    background-color: black;
+    color: white;
+}
+
+.evil {
+    background-color: yellow;
+}
